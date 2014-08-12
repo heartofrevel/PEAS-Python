@@ -103,4 +103,4 @@ try:
     imapSession.close()
     imapSession.logout()
 except :
-    print 'Not able to download all attachments.'
+    print 'Error! Not able to download all attachments.'
